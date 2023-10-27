@@ -1,0 +1,22 @@
+[
+  {
+    "City": "Rio de Janeiro",
+    "Country": "Brazil",
+    "Year": 2016
+  },
+  {
+    "City": "Pyeongchang",
+    "Country": "South Korea",
+    "Year": 2018
+  },
+  {
+    "City": "Tokyo",
+    "Country": "Japan",
+    "Year": 2020
+  },
+  {
+    "City": "Beijing",
+    "Country": "China",
+    "Year": 2022
+  }
+]

@@ -1,0 +1,40 @@
+<!-- 下記ページからコピー -->
+<!-- https://coco-factory.jp/ugokuweb/move01/4-2-2/ -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div id="splash">
+    <div id="splash-logo" class="up-down-left-right-center">ローディング</div>
+  </div><!-- /#splash -->
+
+  <div class="splashbg"></div><!---画面遷移用-->
+
+  <div id="container">
+    <p>メインコンテンツ</p>
+  </div><!-- /#container -->
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    $(window).on('load',function(){
+      $("#splash-logo").delay(1200).fadeOut('slow');
+
+      $("#splash").delay(1500).fadeOut('slow',function(){
+        $('body').addClass('appear');
+      });
+
+      //背景が伸びた後に動かしたいJSをまとめる
+      $('.splashbg').on('animationend', function() { 
+
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,695 @@
+[
+  {
+    "year": 1947,
+    "western_champion": "Chicago Stags",
+    "western_coach": "Harold Olsen",
+    "result": "w1-e4",
+    "eastern_champion": "Philadelphia Warriors",
+    "eastern_coach": "Eddie Gottlieb",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1948,
+    "western_champion": "Baltimore Bullets",
+    "western_coach": "Buddy Jeannette",
+    "result": "w4-e2",
+    "eastern_champion": "Philadelphia Warriors",
+    "eastern_coach": "Eddie Gottlieb",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1949,
+    "western_champion": "Minneapolis Lakers",
+    "western_coach": "John Kundla",
+    "result": "w4-e2",
+    "eastern_champion": "Washington Capitols",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1950,
+    "western_champion": "Minneapolis Lakers",
+    "western_coach": "John Kundla",
+    "result": "w4-e2",
+    "eastern_champion": "Syracuse Nationals",
+    "eastern_coach": "Al Cervi",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1951,
+    "western_champion": "Rochester Royals",
+    "western_coach": "Les Harrison",
+    "result": "w4-e3",
+    "eastern_champion": "New York Knicks",
+    "eastern_coach": "Joe Lapchick",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1952,
+    "western_champion": "Minneapolis Lakers",
+    "western_coach": "John Kundla",
+    "result": "w4-e3",
+    "eastern_champion": "New York Knicks",
+    "eastern_coach": "Joe Lapchick",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1953,
+    "western_champion": "Minneapolis Lakers",
+    "western_coach": "John Kundla",
+    "result": "w4-e1",
+    "eastern_champion": "New York Knicks",
+    "eastern_coach": "Joe Lapchick",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1954,
+    "western_champion": "Minneapolis Lakers",
+    "western_coach": "John Kundla",
+    "result": "w4-e3",
+    "eastern_champion": "Syracuse Nationals",
+    "eastern_coach": "Al Cervi",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1955,
+    "western_champion": "Fort Wayne Pistons",
+    "western_coach": "Charles Eckman",
+    "result": "w3-e4",
+    "eastern_champion": "Syracuse Nationals",
+    "eastern_coach": "Al Cervi",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1956,
+    "western_champion": "Fort Wayne Pistons",
+    "western_coach": "Charles Eckman",
+    "result": "w1-e4",
+    "eastern_champion": "Philadelphia Warriors",
+    "eastern_coach": "George Senesky",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1957,
+    "western_champion": "St. Louis Hawks",
+    "western_coach": "Alex Hannum",
+    "result": "w3-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1958,
+    "western_champion": "St. Louis Hawks",
+    "western_coach": "Alex Hannum",
+    "result": "w4-e2",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1959,
+    "western_champion": "Minneapolis Lakers",
+    "western_coach": "John Kundla",
+    "result": "w0-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1960,
+    "western_champion": "St. Louis Hawks",
+    "western_coach": "Ed Macauley",
+    "result": "w3-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1961,
+    "western_champion": "St. Louis Hawks",
+    "western_coach": "Paul Seymour",
+    "result": "w1-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1962,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Fred Schaus",
+    "result": "w3-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1963,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Fred Schaus",
+    "result": "w2-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1964,
+    "western_champion": "San Francisco Warriors",
+    "western_coach": "Alex Hannum",
+    "result": "w1-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1965,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Fred Schaus",
+    "result": "w1-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1966,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Fred Schaus",
+    "result": "w3-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Red Auerbach",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1967,
+    "western_champion": "San Francisco Warriors",
+    "western_coach": "Bill Sharman",
+    "result": "w2-e4",
+    "eastern_champion": "Philadelphia 76ers",
+    "eastern_coach": "Alex Hannum",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1968,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Butch van Breda Kolff",
+    "result": "w2-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Bill Russell",
+    "finals_mvp": ""
+  },
+  {
+    "year": 1969,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Butch van Breda Kolff",
+    "result": "w3-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Bill Russell",
+    "finals_mvp": "Jerry West"
+  },
+  {
+    "year": 1970,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Joe Mullaney",
+    "result": "w3-e4",
+    "eastern_champion": "New York Knicks",
+    "eastern_coach": "Red Holzman",
+    "finals_mvp": "Willis Reed"
+  },
+  {
+    "year": 1971,
+    "western_champion": "Milwaukee Bucks",
+    "western_coach": "Larry Costello",
+    "result": "w4-e0",
+    "eastern_champion": "Baltimore Bullets",
+    "eastern_coach": "Gene Shue",
+    "finals_mvp": "Lew Alcindor"
+  },
+  {
+    "year": 1972,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Bill Sharman",
+    "result": "w4-e1",
+    "eastern_champion": "New York Knicks",
+    "eastern_coach": "Red Holzman",
+    "finals_mvp": "Wilt Chamberlain"
+  },
+  {
+    "year": 1973,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Bill Sharman",
+    "result": "w1-e4",
+    "eastern_champion": "New York Knicks",
+    "eastern_coach": "Red Holzman",
+    "finals_mvp": "Willis Reed"
+  },
+  {
+    "year": 1974,
+    "western_champion": "Milwaukee Bucks",
+    "western_coach": "Larry Costello",
+    "result": "w3-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Tom Heinsohn",
+    "finals_mvp": "John Havlicek"
+  },
+  {
+    "year": 1975,
+    "western_champion": "Golden State Warriors",
+    "western_coach": "Al Attles",
+    "result": "w4-e0",
+    "eastern_champion": "Washington Bullets",
+    "eastern_coach": "K. C. Jones",
+    "finals_mvp": "Rick Barry"
+  },
+  {
+    "year": 1976,
+    "western_champion": "Phoenix Suns",
+    "western_coach": "John MacLeod",
+    "result": "w2-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Tom Heinsohn",
+    "finals_mvp": "Jo Jo White"
+  },
+  {
+    "year": 1977,
+    "western_champion": "Portland Trail Blazers",
+    "western_coach": "Jack Ramsay",
+    "result": "w4-e2",
+    "eastern_champion": "Philadelphia 76ers",
+    "eastern_coach": "Gene Shue",
+    "finals_mvp": "Bill Walton"
+  },
+  {
+    "year": 1978,
+    "western_champion": "Seattle SuperSonics",
+    "western_coach": "Lenny Wilkens",
+    "result": "w3-e4",
+    "eastern_champion": "Washington Bullets",
+    "eastern_coach": "Dick Motta",
+    "finals_mvp": "Wes Unseld"
+  },
+  {
+    "year": 1979,
+    "western_champion": "Seattle SuperSonics",
+    "western_coach": "Lenny Wilkens",
+    "result": "w4-e1",
+    "eastern_champion": "Washington Bullets",
+    "eastern_coach": "Dick Motta",
+    "finals_mvp": "Dennis Johnson"
+  },
+  {
+    "year": 1980,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Paul Westhead",
+    "result": "w4-e2",
+    "eastern_champion": "Philadelphia 76ers",
+    "eastern_coach": "Billy Cunningham",
+    "finals_mvp": "Magic Johnson"
+  },
+  {
+    "year": 1981,
+    "western_champion": "Houston Rockets",
+    "western_coach": "Del Harris",
+    "result": "w2-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Bill Fitch",
+    "finals_mvp": "Cedric Maxwell"
+  },
+  {
+    "year": 1982,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Pat Riley",
+    "result": "w4-e2",
+    "eastern_champion": "Philadelphia 76ers",
+    "eastern_coach": "Billy Cunningham",
+    "finals_mvp": "Magic Johnson"
+  },
+  {
+    "year": 1983,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Pat Riley",
+    "result": "w0-e4",
+    "eastern_champion": "Philadelphia 76ers",
+    "eastern_coach": "Billy Cunningham",
+    "finals_mvp": "Moses Malone"
+  },
+  {
+    "year": 1984,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Pat Riley",
+    "result": "w3-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "K. C. Jones",
+    "finals_mvp": "Larry Bird"
+  },
+  {
+    "year": 1985,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Pat Riley",
+    "result": "w4-e2",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "K. C. Jones",
+    "finals_mvp": "Kareem Abdul-Jabbar"
+  },
+  {
+    "year": 1986,
+    "western_champion": "Houston Rockets",
+    "western_coach": "Bill Fitch",
+    "result": "w2-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "K. C. Jones",
+    "finals_mvp": "Larry Bird"
+  },
+  {
+    "year": 1987,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Pat Riley",
+    "result": "w4-e2",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "K. C. Jones",
+    "finals_mvp": "Magic Johnson"
+  },
+  {
+    "year": 1988,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Pat Riley",
+    "result": "w4-e3",
+    "eastern_champion": "Detroit Pistons",
+    "eastern_coach": "Chuck Daly",
+    "finals_mvp": "James Worthy"
+  },
+  {
+    "year": 1989,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Pat Riley",
+    "result": "w0-e4",
+    "eastern_champion": "Detroit Pistons",
+    "eastern_coach": "Chuck Daly",
+    "finals_mvp": "Joe Dumars"
+  },
+  {
+    "year": 1990,
+    "western_champion": "Portland Trail Blazers",
+    "western_coach": "Rick Adelman",
+    "result": "w1-e4",
+    "eastern_champion": "Detroit Pistons",
+    "eastern_coach": "Chuck Daly",
+    "finals_mvp": "Isiah Thomas"
+  },
+  {
+    "year": 1991,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Mike Dunleavy",
+    "result": "w1-e4",
+    "eastern_champion": "Chicago Bulls",
+    "eastern_coach": "Phil Jackson",
+    "finals_mvp": "Michael Jordan"
+  },
+  {
+    "year": 1992,
+    "western_champion": "Portland Trail Blazers",
+    "western_coach": "Rick Adelman",
+    "result": "w2-e4",
+    "eastern_champion": "Chicago Bulls",
+    "eastern_coach": "Phil Jackson",
+    "finals_mvp": "Michael Jordan"
+  },
+  {
+    "year": 1993,
+    "western_champion": "Phoenix Suns",
+    "western_coach": "Paul Westphal",
+    "result": "w2-e4",
+    "eastern_champion": "Chicago Bulls",
+    "eastern_coach": "Phil Jackson",
+    "finals_mvp": "Michael Jordan"
+  },
+  {
+    "year": 1994,
+    "western_champion": "Houston Rockets",
+    "western_coach": "Rudy Tomjanovich",
+    "result": "w4-e3",
+    "eastern_champion": "New York Knicks",
+    "eastern_coach": "Pat Riley",
+    "finals_mvp": "Hakeem Olajuwon"
+  },
+  {
+    "year": 1995,
+    "western_champion": "Houston Rockets",
+    "western_coach": "Rudy Tomjanovich",
+    "result": "w4-e0",
+    "eastern_champion": "Orlando Magic",
+    "eastern_coach": "Brian Hill",
+    "finals_mvp": "Hakeem Olajuwon"
+  },
+  {
+    "year": 1996,
+    "western_champion": "Seattle SuperSonics",
+    "western_coach": "George Karl",
+    "result": "w2-e4",
+    "eastern_champion": "Chicago Bulls",
+    "eastern_coach": "Phil Jackson",
+    "finals_mvp": "Michael Jordan"
+  },
+  {
+    "year": 1997,
+    "western_champion": "Utah Jazz",
+    "western_coach": "Jerry Sloan",
+    "result": "w2-e4",
+    "eastern_champion": "Chicago Bulls",
+    "eastern_coach": "Phil Jackson",
+    "finals_mvp": "Michael Jordan"
+  },
+  {
+    "year": 1998,
+    "western_champion": "Utah Jazz",
+    "western_coach": "Jerry Sloan",
+    "result": "w2-e4",
+    "eastern_champion": "Chicago Bulls",
+    "eastern_coach": "Phil Jackson",
+    "finals_mvp": "Michael Jordan"
+  },
+  {
+    "year": 1999,
+    "western_champion": "San Antonio Spurs",
+    "western_coach": "Gregg Popovich",
+    "result": "w4-e1",
+    "eastern_champion": "New York Knicks",
+    "eastern_coach": "Jeff Van Gundy",
+    "finals_mvp": "Tim Duncan"
+  },
+  {
+    "year": 2000,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Phil Jackson",
+    "result": "w4-e2",
+    "eastern_champion": "Indiana Pacers",
+    "eastern_coach": "Larry Bird",
+    "finals_mvp": "Shaquille O'Neal"
+  },
+  {
+    "year": 2001,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Phil Jackson",
+    "result": "w4-e1",
+    "eastern_champion": "Philadelphia 76ers",
+    "eastern_coach": "Larry Brown",
+    "finals_mvp": "Shaquille O'Neal"
+  },
+  {
+    "year": 2002,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Phil Jackson",
+    "result": "w4-e0",
+    "eastern_champion": "New Jersey Nets",
+    "eastern_coach": "Byron Scott",
+    "finals_mvp": "Shaquille O'Neal"
+  },
+  {
+    "year": 2003,
+    "western_champion": "San Antonio Spurs",
+    "western_coach": "Gregg Popovich",
+    "result": "w4-e2",
+    "eastern_champion": "New Jersey Nets",
+    "eastern_coach": "Byron Scott",
+    "finals_mvp": "Tim Duncan"
+  },
+  {
+    "year": 2004,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Phil Jackson",
+    "result": "w1-e4",
+    "eastern_champion": "Detroit Pistons",
+    "eastern_coach": "Larry Brown",
+    "finals_mvp": "Chauncey Billups"
+  },
+  {
+    "year": 2005,
+    "western_champion": "San Antonio Spurs",
+    "western_coach": "Gregg Popovich",
+    "result": "w4-e3",
+    "eastern_champion": "Detroit Pistons",
+    "eastern_coach": "Larry Brown",
+    "finals_mvp": "Tim Duncan"
+  },
+  {
+    "year": 2006,
+    "western_champion": "Dallas Mavericks",
+    "western_coach": "Avery Johnson",
+    "result": "w2-e4",
+    "eastern_champion": "Miami Heat",
+    "eastern_coach": "Pat Riley",
+    "finals_mvp": "Dwyane Wade"
+  },
+  {
+    "year": 2007,
+    "western_champion": "San Antonio Spurs",
+    "western_coach": "Gregg Popovich",
+    "result": "w4-e0",
+    "eastern_champion": "Cleveland Cavaliers",
+    "eastern_coach": "Mike Brown",
+    "finals_mvp": "Tony Parker"
+  },
+  {
+    "year": 2008,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Phil Jackson",
+    "result": "w2-e4",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Doc Rivers",
+    "finals_mvp": "Paul Pierce"
+  },
+  {
+    "year": 2009,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Phil Jackson",
+    "result": "w4-e1",
+    "eastern_champion": "Orlando Magic",
+    "eastern_coach": "Stan Van Gundy",
+    "finals_mvp": "Kobe Bryant"
+  },
+  {
+    "year": 2010,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Phil Jackson",
+    "result": "w4-e3",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Doc Rivers",
+    "finals_mvp": "Kobe Bryant"
+  },
+  {
+    "year": 2011,
+    "western_champion": "Dallas Mavericks",
+    "western_coach": "Rick Carlisle",
+    "result": "w4-e2",
+    "eastern_champion": "Miami Heat",
+    "eastern_coach": "Erik Spoelstra",
+    "finals_mvp": "Dirk Nowitzki"
+  },
+  {
+    "year": 2012,
+    "western_champion": "Oklahoma City Thunder",
+    "western_coach": "Scott Brooks",
+    "result": "w1-e4",
+    "eastern_champion": "Miami Heat",
+    "eastern_coach": "Erik Spoelstra",
+    "finals_mvp": "LeBron James"
+  },
+  {
+    "year": 2013,
+    "western_champion": "San Antonio Spurs",
+    "western_coach": "Gregg Popovich",
+    "result": "w3-e4",
+    "eastern_champion": "Miami Heat",
+    "eastern_coach": "Erik Spoelstra",
+    "finals_mvp": "LeBron James"
+  },
+  {
+    "year": 2014,
+    "western_champion": "San Antonio Spurs",
+    "western_coach": "Gregg Popovich",
+    "result": "w4-e1",
+    "eastern_champion": "Miami Heat",
+    "eastern_coach": "Erik Spoelstra",
+    "finals_mvp": "Kawhi Leonard"
+  },
+  {
+    "year": 2015,
+    "western_champion": "Golden State Warriors",
+    "western_coach": "Steve Kerr",
+    "result": "w4-e2",
+    "eastern_champion": "Cleveland Cavaliers",
+    "eastern_coach": "David Blatt",
+    "finals_mvp": "Andre Iguodala"
+  },
+  {
+    "year": 2016,
+    "western_champion": "Golden State Warriors",
+    "western_coach": "Steve Kerr",
+    "result": "w3-e4",
+    "eastern_champion": "Cleveland Cavaliers",
+    "eastern_coach": "Tyronn Lue",
+    "finals_mvp": "LeBron James"
+  },
+  {
+    "year": 2017,
+    "western_champion": "Golden State Warriors",
+    "western_coach": "Steve Kerr",
+    "result": "w4-e1",
+    "eastern_champion": "Cleveland Cavaliers",
+    "eastern_coach": "Tyronn Lue",
+    "finals_mvp": "Kevin Durant"
+  },
+  {
+    "year": 2018,
+    "western_champion": "Golden State Warriors",
+    "western_coach": "Steve Kerr",
+    "result": "w4-e0",
+    "eastern_champion": "Cleveland Cavaliers",
+    "eastern_coach": "Tyronn Lue",
+    "finals_mvp": "Kevin Durant"
+  },
+  {
+    "year": 2019,
+    "western_champion": "Golden State Warriors",
+    "western_coach": "Steve Kerr",
+    "result": "w2-e4",
+    "eastern_champion": "Toronto Raptors",
+    "eastern_coach": "Nick Nurse",
+    "finals_mvp": "Kawhi Leonard"
+  },
+  {
+    "year": 2020,
+    "western_champion": "Los Angeles Lakers",
+    "western_coach": "Frank Vogel",
+    "result": "w4-e2",
+    "eastern_champion": "Miami Heat",
+    "eastern_coach": "Erik Spoelstra",
+    "finals_mvp": "LeBron James"
+  },
+  {
+    "year": 2021,
+    "western_champion": "Phoenix Suns",
+    "western_coach": "Monty Williams",
+    "result": "w2-e4",
+    "eastern_champion": "Milwaukee Bucks",
+    "eastern_coach": "Mike Budenholzer",
+    "finals_mvp": "Giannis Antetokounmpo"
+  },
+  {
+    "year": 2022,
+    "western_champion": "Golden State Warriors",
+    "western_coach": "Steve Kerr",
+    "result": "w4-e2",
+    "eastern_champion": "Boston Celtics",
+    "eastern_coach": "Ime Udoka",
+    "finals_mvp": "Stephen Curry"
+  },
+  {
+    "year": 2023,
+    "western_champion": "Denver Nuggets",
+    "western_coach": "Michael Malone",
+    "result": "w4-e1",
+    "eastern_champion": "Miami Heat",
+    "eastern_coach": "Erik Spoelstra",
+    "finals_mvp": "Nikola Joki"
+  }
+]

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <template id="template">
+    <div><!-- <=.findを使う際に必要 -->
+      <p>テンプレート</p>
+      <ul class="list"></ul>
+    </div>
+  </template>
+
+  <div id="output"></div>
+
+  <script>
+    jQuery(function($) {
+      const arylist = ['foo', 'bar', 'baz'];
+      const template = $('#template').html();
+      const clone = $(template);
+      const list = arylist.reduce((acc, item) => {
+        return `${acc}<li>
+                  ${item}
+                </li>`;
+      }, '');
+      clone.find('.list').append(list);
+      $('#output').append(clone);
+    });
+  </script>
+</body>
+</html>

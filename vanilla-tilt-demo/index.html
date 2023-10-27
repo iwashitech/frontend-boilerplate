@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vanilla-tilt.js</title>
+  <style>
+    .your-element {
+      width: 300px;
+      height: 300px;
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="your-element"></div>
+
+  <script src="vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelector(".your-element"), {
+      reverse: false,
+      max: 10,
+      startX: 0,
+      startY: 0,
+      perspective: 1000,
+      scale: 1,
+      speed: 700,
+      transition: true,
+      axis: null,
+      reset: true,
+      easing: "cubic-bezier(.03,.98,.52,.99)",
+      glare: false,
+      "max-glare": 1,
+      "glare-prerender": true,
+      "mouse-event-element": true,
+      gyroscope: true,
+      gyroscopeMinAngleX: -45,
+      gyroscopeMaxAngleX: 45,
+      gyroscopeMinAngleY: -45,
+      gyroscopeMaxAngleY: 45,
+    });
+    
+    //It also supports NodeList
+    // VanillaTilt.init(document.querySelectorAll(".your-element"));
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lodash Template</title>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+</head>
+<body>
+  <div class="show"></div>
+
+  <script type="text/html" id="introduce">
+    <ul>
+      <% _.forEach(person, (content, property) => { %>
+        <% if ('address' !== property) { %>
+          <li class="<%- property %>"><%- property.toUpperCase() %> is <%- content %></li>
+        <% } %>
+      <% }); %>
+    </ul>
+  </script>
+  
+  <script>
+    const person = {
+      name: 'Foo',
+      address: 'Bar',
+      tel: '0123456789'
+    }
+
+    const introduce = _.template(document.querySelector('#introduce').innerHTML);
+    document.querySelector('.show').insertAdjacentHTML('beforebegin', introduce(person));
+  </script>
+</body>
+</html>

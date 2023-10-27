@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <template id="template">
+    <p>テンプレート</p>
+    <ul class="list"></ul>
+  </template>
+
+  <div id="output"></div>
+
+  <script>
+    const arylist = ['foo', 'bar', 'baz'];
+    const template = document.querySelector('#template');
+    const clone = template.content.cloneNode(true);
+    const list = arylist.reduce((acc, item) => {
+      return `${acc}<li>
+                ${item}
+              </li>`;
+    }, '');
+    clone.querySelector('.list').innerHTML = list;
+    document.querySelector('#output').appendChild(clone);
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+  <div class="foo">
+    <div class="foo__txt">文字テキスト</div>
+  </div>
+  <div class="bar">
+    <div class="num__txt">0123456789</div>
+  </div>
+  <div class="baz">
+    <div class="num__txt">9876543210</div>
+  </div>
+  <div class="qux">
+    <div class="num__txt">1357924680</div>
+  </div>
+
+  <script>
+    jQuery(function($) {
+      console.log(`%c${$('.foo__txt').text()}`, 'color: orange;');
+      console.log(`%c${$('.bar .num__txt').text()}`, 'color: blue;');
+      console.log(`%c${$('.num__txt', '.baz').text()}`, 'color: green;');
+      console.log($('.baz', '.num__txt').text());
+      console.log(`%c${$('.num__txt', $('.qux')).text()}`, 'color: green; background: pink;');
+    });
+  </script>
+</body>
+</html>

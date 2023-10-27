@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .marquee {
+      font-size: 1.667vw;
+      padding: 32px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .marquee__inner {
+      -webkit-font-smoothing: antialiased;
+      width: fit-content;
+      display: flex;
+      flex: auto;
+      flex-direction: row;
+    }
+    .marquee__part {
+      flex-shrink: 0;
+      padding: 0 4px;
+      font-size: 14vw;
+      font-smooth: always;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <section class="marquee">
+    <div class="marquee__inner -normal">
+      <div class="marquee__part">Lorem ipsum dolor</div>
+    </div>
+
+    <div class="marquee__inner -reverse">
+      <div class="marquee__part">Lorem ipsum dolor</div>
+    </div>
+  </section>
+
+  <script>
+    const config = {xPercent: -100, repeat: -1, duration: 30, ease: "linear"};
+    
+    [...Array(3).keys()].forEach((_) => {
+      document.querySelector('.marquee__inner.-normal').appendChild(document.querySelector('.-normal .marquee__part').cloneNode(true));
+    });
+    gsap.to(".-normal .marquee__part", {...config}).totalProgress(0.5);
+
+    [...Array(3).keys()].forEach((_) => {
+      document.querySelector('.marquee__inner.-reverse').appendChild(document.querySelector('.-reverse .marquee__part').cloneNode(true));
+    });
+    gsap.to(".-reverse .marquee__part", {...config, reversed: true}).totalProgress(0.5);
+  </script>
+</body>
+</html>

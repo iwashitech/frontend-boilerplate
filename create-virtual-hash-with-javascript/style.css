@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+:root {
+  --content-width: 500px;
+}
+.container {
+  width: var(--content-width);
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  gap: 0 20px;
+  width: var(--content-width);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.lipsum {
+  height: 1000px;
+  padding-top: 2em;
+  background: #ccc;
+}
+.lipsum:nth-of-type(2n) {
+  background: #eee;
+}

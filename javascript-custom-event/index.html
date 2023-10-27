@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カスタムイベントの作成</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <input type="text" class="input">
+  <div class="locationDisplayText"></div>
+
+  <script>
+    const input = document.querySelector('.input');
+    const locationDisplayText = document.querySelector('.locationDisplayText');
+
+    const fooEvent = new CustomEvent('input/value/is/foo', { detail: {
+      'text': 'FOO!',
+      'icon': '🙆‍♀️🙆‍♂️🌈'
+    }});
+    const notFooEvent = new CustomEvent('input/value/is/not/foo', { detail: {
+      'text': '...Not foo :(',
+      'icon': '👻'
+    }});
+
+    const displayDetailIn = function(target, event) {
+      target.insertAdjacentText('afterbegin', `${event.detail.icon} ${event.detail.text} ${reverse(event.detail.icon)}`);
+    }
+
+    function reverse(txt) { return _.split(txt, '').reverse().join(''); }
+
+    input.addEventListener('input', function(e) {
+      locationDisplayText.innerHTML = '';
+      const inputValue = e.target.value;
+      if ('' === inputValue) {return;}
+
+      const eventForDispatch = 'foo' === inputValue ? fooEvent : notFooEvent;
+      locationDisplayText.dispatchEvent(eventForDispatch);
+    });
+
+    locationDisplayText.addEventListener('input/value/is/foo', function(e) {
+      displayDetailIn(this, e);
+    });
+
+    locationDisplayText.addEventListener('input/value/is/not/foo', function(e) {
+      displayDetailIn(this, e);
+    });
+  </script>
+</body>
+</html>

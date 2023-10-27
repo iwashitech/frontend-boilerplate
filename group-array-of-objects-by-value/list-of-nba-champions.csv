@@ -1,0 +1,78 @@
+year,western_champion,western_coach,result,eastern_champion,eastern_coach,finals_mvp
+1947,Chicago Stags,Harold Olsen,w1-e4,Philadelphia Warriors,Eddie Gottlieb,
+1948,Baltimore Bullets,Buddy Jeannette,w4-e2,Philadelphia Warriors,Eddie Gottlieb,
+1949,Minneapolis Lakers,John Kundla,w4-e2,Washington Capitols,Red Auerbach,
+1950,Minneapolis Lakers,John Kundla,w4-e2,Syracuse Nationals,Al Cervi,
+1951,Rochester Royals,Les Harrison,w4-e3,New York Knicks,Joe Lapchick,
+1952,Minneapolis Lakers,John Kundla,w4-e3,New York Knicks,Joe Lapchick,
+1953,Minneapolis Lakers,John Kundla,w4-e1,New York Knicks,Joe Lapchick,
+1954,Minneapolis Lakers,John Kundla,w4-e3,Syracuse Nationals,Al Cervi,
+1955,Fort Wayne Pistons,Charles Eckman,w3-e4,Syracuse Nationals,Al Cervi,
+1956,Fort Wayne Pistons,Charles Eckman,w1-e4,Philadelphia Warriors,George Senesky,
+1957,St. Louis Hawks,Alex Hannum,w3-e4,Boston Celtics,Red Auerbach,
+1958,St. Louis Hawks,Alex Hannum,w4-e2,Boston Celtics,Red Auerbach,
+1959,Minneapolis Lakers,John Kundla,w0-e4,Boston Celtics,Red Auerbach,
+1960,St. Louis Hawks,Ed Macauley,w3-e4,Boston Celtics,Red Auerbach,
+1961,St. Louis Hawks,Paul Seymour,w1-e4,Boston Celtics,Red Auerbach,
+1962,Los Angeles Lakers,Fred Schaus,w3-e4,Boston Celtics,Red Auerbach,
+1963,Los Angeles Lakers,Fred Schaus,w2-e4,Boston Celtics,Red Auerbach,
+1964,San Francisco Warriors,Alex Hannum,w1-e4,Boston Celtics,Red Auerbach,
+1965,Los Angeles Lakers,Fred Schaus,w1-e4,Boston Celtics,Red Auerbach,
+1966,Los Angeles Lakers,Fred Schaus,w3-e4,Boston Celtics,Red Auerbach,
+1967,San Francisco Warriors,Bill Sharman,w2-e4,Philadelphia 76ers,Alex Hannum,
+1968,Los Angeles Lakers,Butch van Breda Kolff,w2-e4,Boston Celtics,Bill Russell,
+1969,Los Angeles Lakers,Butch van Breda Kolff,w3-e4,Boston Celtics,Bill Russell,Jerry West
+1970,Los Angeles Lakers,Joe Mullaney,w3-e4,New York Knicks,Red Holzman,Willis Reed
+1971,Milwaukee Bucks,Larry Costello,w4-e0,Baltimore Bullets,Gene Shue,Lew Alcindor
+1972,Los Angeles Lakers,Bill Sharman,w4-e1,New York Knicks,Red Holzman,Wilt Chamberlain
+1973,Los Angeles Lakers,Bill Sharman,w1-e4,New York Knicks,Red Holzman,Willis Reed
+1974,Milwaukee Bucks,Larry Costello,w3-e4,Boston Celtics,Tom Heinsohn,John Havlicek
+1975,Golden State Warriors,Al Attles,w4-e0,Washington Bullets,K. C. Jones,Rick Barry
+1976,Phoenix Suns,John MacLeod,w2-e4,Boston Celtics,Tom Heinsohn,Jo Jo White
+1977,Portland Trail Blazers,Jack Ramsay,w4-e2,Philadelphia 76ers,Gene Shue,Bill Walton
+1978,Seattle SuperSonics,Lenny Wilkens,w3-e4,Washington Bullets,Dick Motta,Wes Unseld
+1979,Seattle SuperSonics,Lenny Wilkens,w4-e1,Washington Bullets,Dick Motta,Dennis Johnson
+1980,Los Angeles Lakers,Paul Westhead,w4-e2,Philadelphia 76ers,Billy Cunningham,Magic Johnson
+1981,Houston Rockets,Del Harris,w2-e4,Boston Celtics,Bill Fitch,Cedric Maxwell
+1982,Los Angeles Lakers,Pat Riley,w4-e2,Philadelphia 76ers,Billy Cunningham,Magic Johnson
+1983,Los Angeles Lakers,Pat Riley,w0-e4,Philadelphia 76ers,Billy Cunningham,Moses Malone
+1984,Los Angeles Lakers,Pat Riley,w3-e4,Boston Celtics,K. C. Jones,Larry Bird
+1985,Los Angeles Lakers,Pat Riley,w4-e2,Boston Celtics,K. C. Jones,Kareem Abdul-Jabbar
+1986,Houston Rockets,Bill Fitch,w2-e4,Boston Celtics,K. C. Jones,Larry Bird
+1987,Los Angeles Lakers,Pat Riley,w4-e2,Boston Celtics,K. C. Jones,Magic Johnson
+1988,Los Angeles Lakers,Pat Riley,w4-e3,Detroit Pistons,Chuck Daly,James Worthy
+1989,Los Angeles Lakers,Pat Riley,w0-e4,Detroit Pistons,Chuck Daly,Joe Dumars
+1990,Portland Trail Blazers,Rick Adelman,w1-e4,Detroit Pistons,Chuck Daly,Isiah Thomas
+1991,Los Angeles Lakers,Mike Dunleavy,w1-e4,Chicago Bulls,Phil Jackson,Michael Jordan
+1992,Portland Trail Blazers,Rick Adelman,w2-e4,Chicago Bulls,Phil Jackson,Michael Jordan
+1993,Phoenix Suns,Paul Westphal,w2-e4,Chicago Bulls,Phil Jackson,Michael Jordan
+1994,Houston Rockets,Rudy Tomjanovich,w4-e3,New York Knicks,Pat Riley,Hakeem Olajuwon
+1995,Houston Rockets,Rudy Tomjanovich,w4-e0,Orlando Magic,Brian Hill,Hakeem Olajuwon
+1996,Seattle SuperSonics,George Karl,w2-e4,Chicago Bulls,Phil Jackson,Michael Jordan
+1997,Utah Jazz,Jerry Sloan,w2-e4,Chicago Bulls,Phil Jackson,Michael Jordan
+1998,Utah Jazz,Jerry Sloan,w2-e4,Chicago Bulls,Phil Jackson,Michael Jordan
+1999,San Antonio Spurs,Gregg Popovich,w4-e1,New York Knicks,Jeff Van Gundy,Tim Duncan
+2000,Los Angeles Lakers,Phil Jackson,w4-e2,Indiana Pacers,Larry Bird,Shaquille O'Neal
+2001,Los Angeles Lakers,Phil Jackson,w4-e1,Philadelphia 76ers,Larry Brown,Shaquille O'Neal
+2002,Los Angeles Lakers,Phil Jackson,w4-e0,New Jersey Nets,Byron Scott,Shaquille O'Neal
+2003,San Antonio Spurs,Gregg Popovich,w4-e2,New Jersey Nets,Byron Scott,Tim Duncan
+2004,Los Angeles Lakers,Phil Jackson,w1-e4,Detroit Pistons,Larry Brown,Chauncey Billups
+2005,San Antonio Spurs,Gregg Popovich,w4-e3,Detroit Pistons,Larry Brown,Tim Duncan
+2006,Dallas Mavericks,Avery Johnson,w2-e4,Miami Heat,Pat Riley,Dwyane Wade
+2007,San Antonio Spurs,Gregg Popovich,w4-e0,Cleveland Cavaliers,Mike Brown,Tony Parker
+2008,Los Angeles Lakers,Phil Jackson,w2-e4,Boston Celtics,Doc Rivers,Paul Pierce
+2009,Los Angeles Lakers,Phil Jackson,w4-e1,Orlando Magic,Stan Van Gundy,Kobe Bryant
+2010,Los Angeles Lakers,Phil Jackson,w4-e3,Boston Celtics,Doc Rivers,Kobe Bryant
+2011,Dallas Mavericks,Rick Carlisle,w4-e2,Miami Heat,Erik Spoelstra,Dirk Nowitzki
+2012,Oklahoma City Thunder,Scott Brooks,w1-e4,Miami Heat,Erik Spoelstra,LeBron James
+2013,San Antonio Spurs,Gregg Popovich,w3-e4,Miami Heat,Erik Spoelstra,LeBron James
+2014,San Antonio Spurs,Gregg Popovich,w4-e1,Miami Heat,Erik Spoelstra,Kawhi Leonard
+2015,Golden State Warriors,Steve Kerr,w4-e2,Cleveland Cavaliers,David Blatt,Andre Iguodala
+2016,Golden State Warriors,Steve Kerr,w3-e4,Cleveland Cavaliers,Tyronn Lue,LeBron James
+2017,Golden State Warriors,Steve Kerr,w4-e1,Cleveland Cavaliers,Tyronn Lue,Kevin Durant
+2018,Golden State Warriors,Steve Kerr,w4-e0,Cleveland Cavaliers,Tyronn Lue,Kevin Durant
+2019,Golden State Warriors,Steve Kerr,w2-e4,Toronto Raptors,Nick Nurse,Kawhi Leonard
+2020,Los Angeles Lakers,Frank Vogel,w4-e2,Miami Heat,Erik Spoelstra,LeBron James
+2021,Phoenix Suns,Monty Williams,w2-e4,Milwaukee Bucks,Mike Budenholzer,Giannis Antetokounmpo
+2022,Golden State Warriors,Steve Kerr,w4-e2,Boston Celtics,Ime Udoka,Stephen Curry
+2023,Denver Nuggets,Michael Malone,w4-e1,Miami Heat,Erik Spoelstra,Nikola Joki

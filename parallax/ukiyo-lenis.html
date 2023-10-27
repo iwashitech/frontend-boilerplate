@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      height: 3000px;
+      padding: 500px 0;
+    }
+    .img-wrap {
+      height: 300px;
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="img-wrap"><img src="img.jpg" alt="" class="ukiyo"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ukiyojs@4.0.4/dist/ukiyo.min.js"></script>
+    <script type="module">
+        import Lenis from "https://cdn.skypack.dev/@studio-freight/lenis@0.1.12";
+        // parallax
+        const els = document.querySelectorAll(".ukiyo");
+        els.forEach((el) => {
+          const parallax = new Ukiyo(el, {
+            scale: 1.2,
+            wrapperClass: 'img'
+          });
+        });
+
+        // smooth scroll
+        const lenis = new Lenis({
+          lerp: 0.1,
+          smooth: true,
+          direction: "vertical"
+        });
+
+        function raf() {
+          lenis.raf();
+          requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+  </div><!-- /.container -->
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      height: 3000px;
+      padding: 500px 0;
+    }
+    .img {
+      /* height: 300px;
+      overflow: hidden; */
+    }
+    img {
+      width: 100%;
+    }
+    .bg-wrap {
+      position: relative;
+      z-index: 3;
+      padding: 50vh 0 0;
+      background: #080126;
+      overflow: hidden;
+    }
+    .bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      z-index: 1;
+      background-image: url(img.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="foo-bar">
+      <!-- <div class="luxy-el img" data-speed-y="5" data-offset="-50">
+        <img src="img.jpg" alt="">
+      </div> -->
+
+      <div class="bg-wrap" data-props="padding-top" data-values="50">
+        <div class="luxy-el bg" data-speed-y="-10"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/luxy.js@0.1.0/dist/js/luxy.min.js" integrity="sha256-Ey0lBYbnO8oQ7SLoXMd3uFMF0buVgj73yD7T4HVOySM=" crossorigin="anonymous"></script>
+    <script charset="utf-8">
+        luxy.init({
+          'wrapper': '.foo-bar'
+        });
+    </script>
+  </div><!-- /.container -->
+
+</body>
+</html>

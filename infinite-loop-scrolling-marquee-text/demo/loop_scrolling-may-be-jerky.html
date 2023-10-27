@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container {
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .loop {
+      display: inline-block;
+      white-space: nowrap;
+    }
+    .loop__txt {
+      display: inline-block;
+      margin: 0 3rem 0 0;
+      padding: 0;
+      font-size: 14vw;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="loop -normal">
+      <p class="loop__txt">Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
+    </div><!-- /.loop -->
+    <div class="loop -reverse">
+      <p class="loop__txt">Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
+    </div><!-- /.loop -->
+  </div><!-- /.container -->
+
+  <script>
+    const htmlToNode = function (htmlStr) {
+      if (!htmlStr || typeof htmlStr !== 'string') return;
+      const tmpElmt = document.createElement('q');
+      tmpElmt.insertAdjacentHTML('beforeend', htmlStr);
+      return tmpElmt.childNodes;
+    };
+
+    const createHtmlTxt = function (targetSelector) {
+      const text = document.querySelector(targetSelector).textContent;
+      return text.split(' ').reduce((acc, cur) => {
+        return `${acc}<span class="loop__txt">${cur}</span>`;
+      }, '');
+    };
+
+    const config = { xPercent: -50, ease: 'none', duration: 30, repeat: -1 };
+
+    document.querySelector('.loop.-normal .loop__txt').replaceWith(...htmlToNode(createHtmlTxt('.loop.-normal .loop__txt')));
+    document.querySelector('.loop.-reverse .loop__txt').replaceWith(...htmlToNode(createHtmlTxt('.loop.-reverse .loop__txt')));
+
+    gsap.to('.loop.-normal', { ...config }).totalProgress(0.5);
+    gsap.to('.loop.-reverse', { ...config, reversed: true }).totalProgress(0.5);
+  </script>
+</body>
+</html>
