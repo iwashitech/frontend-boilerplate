@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    section{
+      padding: 1000px 0;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      background: #6fb936;
+    }
+    .box.is-reverse {
+      background: #8036B9;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <section>
+    <div class="box"></div>
+  </section>
+
+  <script>
+    const debug = function(arg, self) {
+      console.log(`${arg.callee.name}, self.isActive:${self.isActive}`);
+    }
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    const demo = gsap.to('.box', {
+      x: '70vw',
+      duration: 10,
+      
+      scrollTrigger: {
+        trigger: '.box',
+        start: 'top center+=200',
+        end: 'bottom center-=200',
+        // toggleActions: 'onEnter、onLeave、onEnterBack、onLeaveBack',
+        toggleActions: 'play pause pause pause',
+        markers: true,
+        id: 'box',
+        onUpdate: function(self) {
+          debug(arguments, self);
+
+          if (self.isActive) {
+            self.direction === -1 ? demo.reverse() : demo.play();
+          }
+
+          const isReverse = self.direction === -1 ? true : false;
+          self.trigger.classList.toggle('is-reverse', isReverse);
+        },
+        onEnter: function(self) {
+          debug(arguments, self);
+        },
+        onEnterBack: function(self) {
+          debug(arguments, self);
+        },
+        onLeave: function(self) {
+          debug(arguments, self);
+        },
+        onLeaveBack: function(self) {
+          debug(arguments, self);
+        },
+        onToggle: function(self) {
+          debug(arguments, self);
+        },
+      }
+    })
+  </script>
+</body>
+</html>

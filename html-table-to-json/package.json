@@ -1,0 +1,16 @@
+{
+  "name": "table-to-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "table": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-table-to-json": "^1.0.0",
+    "tabletojson": "^2.0.7"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="root">
+    <div class="content">コンテンツ</div>
+    <div class="before-target">ターゲットの前</div>
+    <div class="target">ターゲット</div>
+  </div><!-- /.root -->
+  <div class="info">ターゲット見えた！</div>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          document.querySelector('.info').classList.toggle('show', entry.isIntersecting);
+        })
+      },{
+        root: document.querySelector('.root')
+      });
+      observer.observe(document.querySelector('.target'));
+  </script>
+</body>
+</html>
